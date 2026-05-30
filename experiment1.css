@@ -5,14 +5,14 @@
 }
 
 body{
-    font-family: Arial, sans-serif;
+    font-family:Arial, sans-serif;
     background:#f0f0f0;
 }
 
 .wrapper{
     width:90%;
     margin:40px auto;
-    border:1px solid #bdbdbd;
+    border:1px solid #ccc;
     background:white;
 }
 
@@ -39,7 +39,7 @@ body{
 }
 
 .logo{
-    font-size:13px;
+    font-size:12px;
     font-weight:bold;
 }
 
@@ -89,8 +89,8 @@ body{
     font-size:12px;
 }
 
-/* Responsive */
-@media(max-width:768px){
+/* Responsive Design */
+@media (max-width:768px){
 
     .container{
         flex-direction:column;
@@ -107,5 +107,10 @@ body{
 
     .menu{
         margin-top:8px;
+    }
+
+    .menu a{
+        display:inline-block;
+        margin:5px;
     }
 }
