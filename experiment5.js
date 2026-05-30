@@ -35,7 +35,7 @@ function displayEmployees() {
 }
 function filterSalary() {
     let filtered = employees.filter(emp => emp.salary > 50000);
-    let output = "<h3>Employees with Salary > ₹50,000</h3>";
+    let output = "<h3>Employees with Salary > ₹40,000</h3>";
     filtered.forEach(emp => {
         output += `
             Name: ${emp.name} |
