@@ -7,4 +7,4 @@ document.querySelectorAll(".menu a").forEach(link => {
         e.preventDefault();
         alert("You clicked: " + this.textContent);
     });
-});y
+});
